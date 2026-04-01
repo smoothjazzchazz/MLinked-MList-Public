@@ -68,7 +68,7 @@ void  listDelete(List *list, int position);
 void  listPrint(List *list);
 void  traverseList_pub(List *list, int position, Node **outBehind, Node **outCurrent);
 
-// Internal Cache management — optimized versions of your original API
+// Internal Cache management
 void invalidateCache_pub(ListCache *cache, int mutatedPosition);
 void warmCache_pub(ListCache *cache, int position, Node *behind, Node *current);
 
