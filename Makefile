@@ -9,7 +9,7 @@ OBJS         = $(SRCS:.c=.o)
 HDRS         = linkedlist.h maze.h tremaux.h psll.h \
                algorithms_cache.h algorithms_sll.h algorithms_dll.h \
                sll.h dll.h
-
+#must be in powers of 2 or it will not work because computer science
 CACHE_SIZES  = 4 8 16 32 64
 SWEEP_BIN    = _maze_sweep
 
